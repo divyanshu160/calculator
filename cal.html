@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <script>
+
+    </script>
+    <title>cal</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        input[type="button"]{
+            width: 100%;
+        }
+        
+    </style>
+</head>
+<body>
+    <table border="1" >
+        <tr>
+            <td colspan="3"><input  type="text" class="screen"></td>
+            <td><input type="button" class="clear" value="c" ></td>
+        </tr>
+        <tr>
+            <td><input class="btn" type="button" value="1" onclick="solve('1')" ></td>
+            <td><input class="btn" type="button" value="2" onclick="solve('2')"></td>
+            <td><input class="btn" type="button" value="3" onclick="solve('3')"></td>
+            <td><input class="btn" type="button" value="+" onclick="solve('+')"></td>
+        </tr>
+        <tr>
+            <td><input class="btn" type="button" value="4" onclick="solve('4')"></td>
+            <td><input class="btn" type="button" value="5" onclick="solve('5')"></td>
+            <td><input class="btn" type="button" value="6" onclick="solve('6')"></td>
+            <td><input class="btn" type="button" value="-" onclick="solve('-')"></td>
+        </tr>
+        <tr>
+            <td><input class="btn" type="button" value="7" onclick="solve('7')"></td>
+            <td><input class="btn" type="button" value="8" onclick="solve('8')"></td>
+            <td><input class="btn" type="button" value="9" onclick="solve('9')"></td>
+            <td><input class="btn" type="button" value="*" onclick="solve('*')"></td>
+        </tr>
+        <tr>
+            <td><input class="btn" type="button" value="." onclick="solve('.')"></td>
+            <td><input class="btn" type="button" value="0" onclick="solve('0')"></td>
+            <td><input class="equal" type="button" value="=" "></td>
+            <td><input class="btn" type="button" value="/" ></td>
+        </tr>
+    </table>
+    <script src="cal.js"></script>
+</body>
+</html>
